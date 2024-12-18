@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapCalculator", "MapCalculator\MapCalculator.csproj", "{080ADE7F-76B8-4459-A6C1-0FFE110A135C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapCalculator.Tests", "MapCalculator.Tests\MapCalculator.Tests.csproj", "{DD10E567-9645-4E05-A028-4C72BFCDBB0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{080ADE7F-76B8-4459-A6C1-0FFE110A135C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080ADE7F-76B8-4459-A6C1-0FFE110A135C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080ADE7F-76B8-4459-A6C1-0FFE110A135C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD10E567-9645-4E05-A028-4C72BFCDBB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD10E567-9645-4E05-A028-4C72BFCDBB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD10E567-9645-4E05-A028-4C72BFCDBB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD10E567-9645-4E05-A028-4C72BFCDBB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
